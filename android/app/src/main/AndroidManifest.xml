@@ -2,6 +2,7 @@
     <application
         android:label="flutter_exercise_camera"
         android:name="${applicationName}"
+        android:requestLegacyExternalStorage="true" 
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
