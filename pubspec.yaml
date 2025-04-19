@@ -16,11 +16,25 @@ dependencies:
   camera_camera:
   image_picker:
   get:
+  flutter_native_splash: ^1.1.8+4
+  flutter_launcher_icons: ^0.9.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+
+flutter_native_splash:
+  color: "#F9D87B"
+  image: "assets/app/splash.png"
+  android: true
+  ios: true
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/app/icon.png"
+  remove_alpha_ios: true
 
 flutter:
   uses-material-design: true

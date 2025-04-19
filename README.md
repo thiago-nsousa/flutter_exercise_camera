@@ -2,6 +2,11 @@
 
 A new Flutter project.
 
+Rode os comandos para aplicar o splash e o icon:
+
+- flutter pub run flutter_launcher_icons:main
+- flutter pub run flutter_native_splash:create
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
